@@ -6,9 +6,9 @@ p {
   font-size: 24px;
 }
 
-#startButton {
-  font-size: 24px;
-  padding: 10px;
+button,
+input {
+  padding: 5px;
 }
 
 #numberBox,
@@ -24,11 +24,6 @@ p {
   margin-left: 20px;
 }
 
-input,
-button {
-  padding: 5px;
-}
-
 input {
-  width: 100px;
+  width: 150px;
 }
