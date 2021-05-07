@@ -54,16 +54,14 @@ function changeNumber() {
       number = number + randomNumber
       numberBox.innerHTML = `+${randomNumber}`
       numberBox.style.color = `green`
-    }
-    else if (randomOperation == 1) {
+    } else if (randomOperation == 1) {
       number = number - randomNumber
       numberBox.innerHTML = `-${randomNumber}`
       numberBox.style.color = `red`
     }
 
     setTimeout(clear, 2000)
-  }
-  else {
+  } else {
     numberBox.style.display = `none`
 
     instructions.style.display = `block`
@@ -80,8 +78,7 @@ function submit() {
 
   if (answerValue == number) {
     resultParagraph.innerHTML = `Good job!`
-  }
-  else {
+  } else {
     resultParagraph.innerHTML = `Sorry, the number is ${number}`
   }
 

@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Head Count</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Head Count</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Head Count</h1>
 
-	</script>
-</head>
+    <p id="instructions">
+      Remember the number, and keep track of the amount added and subtracted from the number.
+    </p>
 
-<body>
-	<h1>Head Count</h1>
+    <button id="startButton">Start game</button>
+    <div id="numberBox"></div>
 
-	<p id="instructions">
-		Remember the number, and keep track of the amount added and subtracted from the number.
-	</p>
+    <div id="answerBox">
+      <input type="number" placeholder="answer" autocomplete="off" id="answer" />
+      <button id="submitButton">Submit</button>
+    </div>
 
-	<button id="startButton">Start game</button>
-  <div id="numberBox"></div>
-
-  <div id="answerBox">
-    <input type="number" placeholder="answer" id="answer">
-    <button id="submitButton">Submit</button>
-  </div>
-
-  <div id="resultBox">
-    <p id="resultParagraph"></p>
-    <button id="playAgainButton">Play again</button>
-  </div>
-</body>
-
+    <div id="resultBox">
+      <p id="resultParagraph"></p>
+      <button id="playAgainButton">Play again</button>
+    </div>
+  </body>
 </html>
